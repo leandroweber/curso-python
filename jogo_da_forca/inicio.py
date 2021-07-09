@@ -5,8 +5,6 @@ palavra_des = []
 cont_letras_des = 0
 print('Jogo da Forca')
 
-print('oi')
-
 for x, palavra_rec in enumerate(palavras_rec):
     for i in range(0, len(palavra_rec)):
         palavra_des.append('_')
