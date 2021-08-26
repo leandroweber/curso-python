@@ -1,12 +1,8 @@
-from datetime import date
 
-# 04/07/2018
+import pandas as pd
+df = pd.DataFrame({"A": [10, 20, -5, -10, 20],
+                   "B": [10, 20, -5, -10, 89]}
+                  )
 
-strData = '04/07/2018'
-
-lData = strData.split('/')
-
-strData = lData[2] + '-' + lData[1] + '-' + lData[0]
-
-
-print(strData)
+df['C'] = df["A"] + df["B"]
+print(df)
