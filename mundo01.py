@@ -25,24 +25,28 @@ corfundo = {'limpa': '',
             'cianeto': '46',
             'cinza': '47'}
 
+
 # aula aula 05
-if desafio == 1:
-    print('Desafio {}'.format(desafio))
+def opcao1():
+    print(f'Desafio {desafio}')
     msg = 'Olá Mundo!'
     print(inicio + estilo['sublinhado'] + ';' + cortexto['azul'] + final + msg)
 
-elif desafio == 2:
-    print('Desafio {}'.format(desafio))
+
+def opcao2():
+    print(f'Desafio {desafio}')
     nome = input('Qual é seu nome: ')
     print('É um prazer te conhecer, {}{}'.format(inicio + cortexto['vermelho'] + final, nome))
 
-elif desafio == 3:
+
+if desafio == 3:
     print('Desafio {}'.format(desafio))
     n1 = int(input('Digite um número: '))
     n2 = int(input('Digite mais número: '))
     s = n1 + n2
     print(type(n1))
-    # print('A soma entre',n1,'e',n2,'vale:',s)
+    print(f'A soma entre {n1} e {n2} vale: {s}')
+    """"
     print('A soma entre {}{}{} e {}{}{} vale: {}{}{}'.format(inicio + cortexto['azul'] + final,
                                                              n1,
                                                              inicio + final,
@@ -51,8 +55,9 @@ elif desafio == 3:
                                                              inicio + final,
                                                              inicio + corfundo['cinza'] + final,
                                                              s,
-                                                             inicio + final, ))
-
+                                                             inicio + final ))
+    """
+'''
 # AULA 6
 elif desafio == 4:
     print('Desafio {}'.format(desafio))
@@ -224,7 +229,7 @@ elif desafio == 18:
 
 elif desafio == 19:
     print('Desafio {}'.format(desafio))
-    from random import choice # Sorteio de valor
+    from random import choice  # Sorteio de valor
     n1 = str(input('Primeiro aluno: '))
     n2 = str(input('Segundo aluno: '))
     n3 = str(input('Terceiro aluno: '))
@@ -235,7 +240,7 @@ elif desafio == 19:
 
 elif desafio == 20:
     print('Desafio {}'.format(desafio))
-    from random import shuffle # Reordenar lista
+    from random import shuffle  # Reordenar lista
     n1 = str(input('Primeiro aluno: '))
     n2 = str(input('Segundo aluno: '))
     n3 = str(input('Terceiro aluno: '))
@@ -446,3 +451,10 @@ elif desafio == 35:
 
 else:
     print('Opção inválida')
+'''
+opcoes = {1: opcao1, 2: opcao2, 3: opcao3, 4: opcao4, 5: opcao5, 6: opcao6, 7: opcao7, 8: opcao8, 9: opcao9,
+          10: opcao10, 11: opcao11, 12: opcao12, 13: opcao13, 14: opcao14, 15: opcao15, 16: opcao16, 17: opcao17,
+          18: opcao18, 19: opcao19,
+          20: opcao20, 21: opcao21, 22: opcao22, 23: opcao23, 24: opcao24, 25: opcao25, 26: opcao26, 27: opcao27,
+          28: opcao28, 29: opcao29,
+          }
