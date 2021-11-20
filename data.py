@@ -25,7 +25,7 @@ print(dif.seconds) # somente a diferença de segundos
 print(dif.total_seconds()) # a diferença total representada em segundos
 # print(dif.time)
 
-# seta local conforme linhgua do pc
+# seta local conforme lingua do pc
 setlocale(LC_ALL, '') 
 # setlocale(LC_ALL, 'pt_BR.utf-8') # poderia ser 
 
