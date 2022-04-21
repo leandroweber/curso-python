@@ -3,7 +3,7 @@ palavras_rec = ['Maceio', 'Macapa', 'Curitiba']
 palavras_des = []
 palavra_des = []
 cont_letras_des = 0
-print('Jogo da Forca')
+print('Roda a Roda Familia')
 
 for x, palavra_rec in enumerate(palavras_rec):
     for i in range(0, len(palavra_rec)):
