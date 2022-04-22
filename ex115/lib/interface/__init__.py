@@ -1,7 +1,7 @@
 opcoes = [[1, 'Listar'],
           [2, 'Cadastrar'],
           [3, 'Excluir'],
-          [9, 'Sair']]
+          [4, 'Sair']]
 
 def leiaInt(msg):
     while True:

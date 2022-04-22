@@ -32,13 +32,13 @@ import json
 # from locale import setlocale, LC_ALL
 # Converte um dicionário em JSON
 # útil para salvar informações de qualquer tipo
-# dados = json.dumps(clientes_dicionario, indent=4)
-# print('Json: \n', dados)
+dados = json.dumps(clientes_dicionario, indent=4)
+print('Json: \n', dados)
 
 # Converte JSON em um dicionário
 # útil para carregar informações de qualquer tipo
-# dados = json.loads(clientes_json)
-# print('Dicionario: \n', dados)
+dados = json.loads(clientes_json)
+print('Dicionario: \n', dados)
 
 # Exporta dicionário para arquivo JSON
 # adicionado encoding utf8 e ensure_ascii=False para a acentuação no json
