@@ -169,7 +169,7 @@ elif desafio == 45:
         [0] PEDRA
         [1] PAPEL
         [2] TESOURA''')
-        print(lista[sorteado])
+        # print(lista[sorteado])
         jogador = int(input('Qual sua opção: '))
         if jogador > 2:
             print('Número inváldo')
