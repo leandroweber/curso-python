@@ -1,4 +1,6 @@
-desafio = int(input('Escolha o desafio de 1 a 35? '))
+#desafio = int(input('Escolha o desafio de 1 a 35? '))
+
+print("oi")
 
 inicio = '\033['
 final = 'm'
